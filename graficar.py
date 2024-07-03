@@ -1,9 +1,12 @@
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation 
 import mobiust
+
 i = 0+1j
 m = 20
+
 figure, axes = plt.subplots()
+
 circle = plt.Circle( (1,0), 1,  fill = False, color="red")
 axes.add_patch(circle)
 circle = plt.Circle( (3,0), 3,  fill = False, color="blue" )
